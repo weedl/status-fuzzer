@@ -1,0 +1,127 @@
+# Configuration / secrets
+/.env
+/.env.local
+/.env.production
+/.env.development
+/.env.backup
+/.env.bak
+/.env.old
+/.env.example
+
+# Version control
+/.git/config
+/.git/HEAD
+/.gitignore
+/.svn/entries
+
+# Backup / dump files
+/backup.sql
+/backup.zip
+/backup.tar.gz
+/dump.sql
+/database.sql
+/db.sql
+
+# PHP
+/phpinfo.php
+/info.php
+/php.php
+/test.php
+/install.php
+/config.php.bak
+
+# Node.js
+/package.json
+/package-lock.json
+/yarn.lock
+
+# PHP Composer
+/composer.json
+/composer.lock
+
+# Admin / management
+/admin
+/admin/
+/administrator
+/wp-admin
+/wp-login.php
+/wp-config.php.bak
+/console
+/manager
+/management
+/jmx-console
+/web-console
+
+# Spring Boot Actuator
+/actuator
+/actuator/health
+/actuator/info
+/actuator/env
+/actuator/beans
+/actuator/metrics
+/actuator/loggers
+/actuator/heapdump
+/actuator/threaddump
+/actuator/mappings
+/actuator/configprops
+/health
+/info
+
+# Django / Python
+/_profiler
+/debug
+/debug/
+
+# Ruby on Rails
+/rails/info
+/rails/info/properties
+/rails/info/routes
+
+# Laravel / PHP
+/telescope
+/horizon
+/_ignition/health-check
+
+# Server status
+/server-status
+/server-info
+/nginx_status
+/status
+
+# Recon basics
+/robots.txt
+/sitemap.xml
+/.well-known/security.txt
+/humans.txt
+/CHANGELOG
+/CHANGELOG.md
+/VERSION
+/README
+/README.md
+/LICENSE
+
+# API introspection
+/api/version
+/api/v1/version
+/api/health
+/version
+/v1/health
+/v2/health
+/swagger.json
+/swagger/index.html
+/openapi.json
+/api-docs
+/api-docs.json
+/graphql
+/graphiql
+/__graphql
+
+# Misc sensitive files
+/crossdomain.xml
+/clientaccesspolicy.xml
+/.DS_Store
+/web.config
+/app.config
+/WEB-INF/web.xml
+/.htaccess
+/.htpasswd
